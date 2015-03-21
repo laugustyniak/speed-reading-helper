@@ -1,0 +1,45 @@
+html {
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+	color: #0071BA;
+}
+
+#numbers {
+}
+
+#numbers_hide {
+	display: none;
+}
+
+#check_number {
+	text-align: center;
+	color: #0071BA;
+	border-radius: 6px;
+	border: 2px solid;
+}
+
+.buttons {
+	background-color: #0071BA;
+	color: white;
+	border-radius: 6px;
+	border: 2px solid;
+}
+
+#stop {
+	display: none;
+}
+
+img {
+	display: none;
+}
+
+#number_lenght, #number_display_time, #count_label, #count {
+	font-size: 12px;
+	color: #0071BA;
+}
+
+#statistics {
+	font-size: 12px;
+	color: #0071BA;
+}

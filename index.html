@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-EQUIV="cache-control" CONTENT="no-cache"/>
+		<title>Photographic reading</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="jquery-1.8.3.js"></script>
+		<script type="text/javascript" src="reading.js"></script>
+	</head>
+	<body>
+		<div id='numbers'>_</div><div id='numbers_hide'>_</div>
+		<input id="check_number"></input>
+		<br>
+		<img id="image_fail" src="fail.png"><img id="image_ok" src="ok.gif">
+		<br>
+		<span id="number_lenght">How long should be numbers?</span>
+		<select id="numbers_select">
+			<option>6</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+		</select>	
+		<br>
+		<span id="number_display_time">How long should numbers be displaying? (ms)</span>
+		<select id="numbers_select_time">
+			<option>750</option>
+			<option>3000</option>
+			<option>2000</option>
+			<option>1000</option>
+			<option>900</option>
+			<option>800</option>
+			<option>700</option>
+			<option>600</option>
+			<option>500</option>
+			<option>400</option>
+			<option>300</option>
+			<option>200</option>
+			<option>100</option>
+			<option>50</option>
+		</select>	
+		<br>
+		<span id="count_label">Count: </span>
+		<span id='count'>0</span>
+		<br>
+		<input type="button" class="buttons" id="start" value="START"></input>
+		<input type="button" class="buttons" id="stop" value="STOP"></input>
+		<br>
+		<span id="statistics"></span>
+	</body>
+</html>
